@@ -1,8 +1,10 @@
 # Simple Tag Hierarchy (STH)
 
-A way to define a hierarchy of tags. It supports multiple parents and reusable groups of tags.
+Useful for taxonomies and subsumption search.
 
-For this doc's examples (and the reference implementation) I'm using a simple ASCII tree format for the STH.
+STH supports multiple parents and reusable groups of tags.
+
+For the examples (and the reference implementation *watch this space*) I'm using a simple ASCII tree format for the STH.
 
 ## Example
 
@@ -82,7 +84,7 @@ textiles
 ---pattern
 ```
 
-(This last is invalid as a spec because you're not allowed to give the same tag >0 children in more than one place. **Use the bracketed parent technique to achieve the same result.**)
+(The above is actually invalid as a spec because you're not allowed to give the same tag >0 children in more than one place. **Use the bracketed parent technique to do this.**)
 
 ## Ghost tags
 
